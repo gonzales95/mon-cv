@@ -1,0 +1,95 @@
+html, body {
+    background: #000;
+    margin: 0;
+  }
+  
+  canvas {
+    position: absolute;
+  }
+
+
+h1,h3, h2{
+  color:#FFF;
+  text-align:center;
+  text-shadow: 5px 5px #000;
+}
+.btn{
+    text-decoration-style: none;
+}
+a{
+    text-decoration-style: none; 
+}
+
+
+
+svg {
+    margin-bottom: 80px;
+  }
+  
+  .btn {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .text {
+    user-select: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  
+  .subCircle {
+    pointer-events: none;
+  }
+  
+  .strokeW {
+    animation: strokeW .6s forwards;
+    @keyframes strokeW {
+      to {
+        stroke-width: 1.16;
+      }
+    }
+  }
+  
+footer{
+    background-color: dimgrey;
+}  
+.menu{
+    background-color: orange;
+    width: 1000px;
+    float: right;
+    height: 50px;
+    
+    border-top-left-radius: 0px;
+        margin-right: 12px;
+}
+.logo{
+    height: 50px;
+    float: left;
+    background-color: gainsboro;
+    width: 305px;
+    margin-top: 16px;
+    margin-left: 9px;
+}
+ul{
+    float: right;
+}
+li{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+a{
+    display: inline-block;
+    padding: 10px;
+}
+a :hover{
+    background-color: gainsboro;
+    height: 40px;
+}
+.tof {
+  margin-top: 2%;
+}
+.home{
+  text-decoration-color: #FFF;
+}
